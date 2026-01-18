@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { ShoppingCart, Menu, X } from "lucide-react";
 import { useCartStore } from "@/stores/cartStore";
 import CartDrawer from "./CartDrawer";
@@ -33,7 +34,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-12 md:h-16">
             
             {/* Brand */}
-            <a href="#home" className="flex items-center gap-3">
+             <Link to="/" className="flex items-center gap-3">
               <img
                 src={logo}
                 alt="Pickaxe Lab"
@@ -42,7 +43,7 @@ const Navbar = () => {
               <span className="text-lg md:text-xl font-bold tracking-wide">
                 PICKAXE<span className="text-primary">.LAB</span>
               </span>
-            </a>
+             </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
