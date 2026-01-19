@@ -231,8 +231,9 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
-        <FAQSection />
       </main>
+
+      <FAQSection />
 
       <Footer />
     </div>
