@@ -9,12 +9,7 @@ const socialLinks = [
   { icon: Mail, href: 'mailto:kaushlendra.pandey@pickaxelab.com', label: 'Email' },
 ];
 
-const footerLinks = [
-  { label: 'Shop', href: '#shop' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
-  { label: 'FAQ', href: '#' },
-];
+
 
 const policyLinks = [
   { label: 'Terms & Conditions', href: getPolicyUrl('terms-of-service') },
