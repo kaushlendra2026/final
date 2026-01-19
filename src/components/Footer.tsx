@@ -10,6 +10,12 @@ const socialLinks = [
 ];
 
 
+const footerLinks = [
+  { label: '', href: '#' },
+  { label: '', href: '#' },
+  { label: '', href: '#' },
+  { label: '', href: '#' },
+];
 
 const policyLinks = [
   { label: 'Terms & Conditions', href: getPolicyUrl('terms-of-service') },
