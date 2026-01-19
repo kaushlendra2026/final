@@ -6,6 +6,7 @@ import { ArrowLeft, ShoppingCart, Loader2, Minus, Plus } from 'lucide-react';
 import { toast } from 'sonner';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQSection from '@/components/FAQSection';
 
 const ProductDetail = () => {
   const { handle } = useParams<{ handle: string }>();
@@ -230,6 +231,7 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
+        <FAQSection />
       </main>
 
       <Footer />
